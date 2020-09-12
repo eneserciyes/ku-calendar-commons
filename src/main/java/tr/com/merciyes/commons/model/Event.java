@@ -1,7 +1,6 @@
 package tr.com.merciyes.commons.model;
 
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,7 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class Event extends AbstractBo{
 
-    private long resourceId;
+    private Long resourceId;
 
     private String club;
 
