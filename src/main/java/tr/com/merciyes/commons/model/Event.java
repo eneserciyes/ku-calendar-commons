@@ -4,8 +4,7 @@ package tr.com.merciyes.commons.model;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.time.LocalDateTime;
+import tr.com.merciyes.commons.annotation.NotNull;
 
 @Getter
 @Setter
@@ -14,13 +13,14 @@ public class Event extends AbstractBo{
 
     private Long resourceId;
 
+    @NotNull
     private String club;
-
+    @NotNull
     private String eventTitle;
 
     private String description;
-
-    private LocalDateTime date;
-
+    @NotNull
+    private String date;
+    @NotNull
     private String duration;
 }
