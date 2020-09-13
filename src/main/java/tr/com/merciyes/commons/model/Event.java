@@ -20,7 +20,7 @@ public class Event extends AbstractBo{
 
     private String description;
     @NotNull
-    private String date;
+    private String start;
     @NotNull
-    private String duration;
+    private String end;
 }
